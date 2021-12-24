@@ -1,0 +1,25 @@
+{
+  "name": "api-kompa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "superchauzette",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx serve ./api",
+    "build": "npx ts-node ./seed.ts"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "node-id3": "^0.2.3",
+    "slug": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/slug": "^5.0.3",
+    "serve": "^13.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "@types/node": "^17.0.4"
+  }
+}
